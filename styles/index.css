@@ -115,6 +115,7 @@ import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..
     font-size: 2.8rem;
     margin-bottom: 10px;
  }
+
  .fact-card-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -151,8 +152,14 @@ import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..
     .teams{
         flex-direction: column;
     }
-    .team-img-container{
-        grid-template-columns: repeat(1, 1fr);
+    .team-img-container,
+    .fact-card-container
+    {
+        grid-template-columns: 1fr;
+    }
+    .fact-card-container{
+        justify-items: center;
+        gap: 24px;
     }
     .feauture{
         margin-left: 20px;
