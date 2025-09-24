@@ -171,7 +171,24 @@ import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..
 
 }
 
+#exprience-bage{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+
+}
+#exprience-year{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+
  /* sponsor section styles */
+ .our-sponsor{
+    margin-bottom: 100px;
+ }
  .sponsor-info{
     max-width: 542px;
     margin: 50px auto;
@@ -187,10 +204,24 @@ import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..
     filter: grayscale(100%);
 }
 
+.feauture-img > img{
+    width: 100%;
+}
+.footer{
+    max-width: 1440px;
+    max-height: 100px;
+    border-radius: 8px;
+    padding: 0.14rem 25rem;
+    background: rgba(255, 244, 231, 1);
+    text-align: center;
+    margin: 0 auto;
+    }
+
 /* Responsive media query */
 @media screen and (max-width:576px) {
     .navbar,
     .nav-links,
+    .our-feauture,
     .teams{
         flex-direction: column;
     }
@@ -211,16 +242,29 @@ import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..
     .feauture{
         margin-left: 20px;
     }
+    #exprience-bage{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .footer{
+        padding: 0.5rem 3rem;
+    }
 }
 
 /* medium size device */
 @media screen and (min-width:576px) and (max-width:992px) {
-    .teams{
+    .teams, .our-feauture{
         flex-direction: column;
     }
     .feauture{
         margin: 50px auto;
     }
+
+    #exprience-bage{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
     .fact-card-container{
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
@@ -234,5 +278,8 @@ import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
         justify-items: center;
+    }
+    .footer{
+        padding: 0.7rem 5rem;
     }
 }
