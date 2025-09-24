@@ -145,6 +145,32 @@ import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..
     font-weight: 600;
     margin-top: 5px;
  }
+
+ /* our feauture section */
+.our-feauture{
+    display: flex;
+    gap: 140px;
+}
+
+ #section-title-border{
+    border-left: 8px solid orange;
+    padding: 21px;
+ }
+
+.feature-card{
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+}
+
+.feature-card .feature-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
  /* sponsor section styles */
  .sponsor-info{
     max-width: 542px;
