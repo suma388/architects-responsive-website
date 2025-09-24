@@ -97,7 +97,6 @@ import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..
 .feauture-discription{
     font-size: 1rem;
     font-weight: 400;
-
 }
 .teams{
     align-items: center;
@@ -111,9 +110,40 @@ import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..
     margin-left: 130px;
     max-width: 530px;
 }
-
-
-
+ /* some fact styles */
+ .section-title{
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+ }
+ .fact-card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 60px;
+ }
+ .fact{
+    border: 1px solid orange;
+    border-radius: 8px;
+     width: 240px;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .fact-contant{
+    text-align: center;
+ }
+ .fact-number{
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+ }
+ .fact-name{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 5px;
+ }
+               
 /* Responsive media query */
 @media screen and (max-width:576px) {
     .navbar,
